@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "A lightweight JavaScript SDK for Nigerian states, LGAs, and geopolitical data",
   "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
+      "import": "./dist/index.js",
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }

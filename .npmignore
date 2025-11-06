@@ -1,0 +1,38 @@
+# Source files (only dist/ should be published)
+src/
+
+# Development files
+tsconfig.json
+test-library.js
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# CI/CD
+.github/
+
+# IDE
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+coverage/
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
