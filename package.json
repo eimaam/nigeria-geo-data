@@ -1,0 +1,59 @@
+{
+  "name": "nigeria-geo-data",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript SDK for Nigerian states, LGAs, and geopolitical data",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eimaam/nigeria-geo-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eimaam/nigeria-geo-data/issues"
+  },
+  "homepage": "https://github.com/eimaam/nigeria-geo-data#readme",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "nigeria",
+    "nigerian",
+    "states",
+    "lga",
+    "local-government",
+    "geopolitical",
+    "geo",
+    "data",
+    "sdk",
+    "library",
+    "africa",
+    "regions"
+  ],
+  "author": "Imam Dahir",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
